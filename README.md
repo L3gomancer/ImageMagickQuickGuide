@@ -5,14 +5,15 @@ I find it good for bulk cropping pictures, assembling sprite sheets, and creatin
 You can even stick the commands in a script to run. My examples might output all results to the Home directory but feel free to put your own folders.\
 I'll also mention some tips and pitfalls I've discovered\
 ### Resources
-First some resources. [ImageMagick site]()\
-The [good official intro [Anatomy]()
-The [bad deep docs](http://www.imagemagick.org/Usage/crop/#crop_tile). I find these to be verbose, misspelled, lurid purple and sometimes obsolete. At least they're detailed
+First some resources.\
+[The ImageMagick site](http://www.imagemagick.org)\
+The [good intro] (http://www.imagemagick.org/script/command-line-processing.php)\
+The [bad deep docs](http://www.imagemagick.org/Usage/crop/#crop_tile). I find these to be verbose, misspelled, obsolete, and lurid purple. At least they're detailed
 
 
 ---
 
-Generate a builtin image
+The program comes with a few builtin image to work with, generated this way
 >`magick rose: rose.gif`
 
 ![a](images/rose.gif)  
