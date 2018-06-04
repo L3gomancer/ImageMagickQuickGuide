@@ -2,8 +2,12 @@
 
 ImageMagick (IM) is a commandline application for editing images.\
 I find it good for bulk cropping pictures, assembling sprite sheets, and creating animated gifs.\
-You can even stick the commands in a script to run. My examples might output all results to the Home directory but feel free to put your own folders.
-I'll also mention some tips and pitfalls I've discovered
+You can even stick the commands in a script to run. My examples might output all results to the Home directory but feel free to put your own folders.\
+I'll also mention some tips and pitfalls I've discovered\
+### Resources
+First some resources. [ImageMagick site]()\
+The [good official intro [Anatomy]()
+The [bad deep docs](http://www.imagemagick.org/Usage/crop/#crop_tile). I find these to be verbose, misspelled, lurid purple and sometimes obsolete. At least they're detailed
 
 
 ---
