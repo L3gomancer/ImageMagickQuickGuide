@@ -1,6 +1,10 @@
-## ImageMagickVisRef
+# A Quick Guide To ImageMagick
 
-### A visual reference
+ImageMagick (IM) is a commandline application for editing images.\
+I find it good for bulk cropping pictures, assembling sprite sheets, and creating animated gifs.\
+You can even stick the commands in a script to run. My examples might output all results to the Home directory but feel free to put your own folders.
+I'll also mention some tips and pitfalls I've discovered
+
 
 ---
 
