@@ -11,7 +11,7 @@ Generate a builtin image
 
 ---
 
-convert png to gif (to see whitespace better)
+convert png to gif
 > `convert dude.png dude.gif`  
 
 ---
@@ -33,28 +33,27 @@ Rows
 </br>
 
 
-Here's the dude. I want frames.  
+In this row I want to crop just the sprites
 ![a](images/dude.png)  
 
-In this case I know dude is 32px wide
+Since I know every sprites is 32px wide
 
 > `convert ~/dude-cropped.png -crop 32x0 +repage ~/d%02d.png`
-
 ![a](images/d04.png)
 
 ---
-source sprites
+To put these 3 sprites in a row
 ![a](images/d019.gif) ![a](images/d120.gif) ![a](images/d121.gif)  
-append in a row
+I can target them individually
 >`magick d009.gif d010.gif d011.gif +append tv1.gif`
 
 ![a](images/tv1.gif)
 
-Can also do above based on filename number!
+Or I can grab a range based on filename!
 
 >`magick d%03d.gif[9-11] +append tv1.gif`
 
-append in a stack  
+To stack them up
 >`magick d1.gif d2.gif d3.gif -append tv1.gif`
 
 ![a](images/tv2.gif)
