@@ -7,7 +7,7 @@ I'll also mention some tips and pitfalls I've discovered\
 ### Resources
 First some resources.\
 [The ImageMagick site](http://www.imagemagick.org)\
-The [good intro] (http://www.imagemagick.org/script/command-line-processing.php)\
+The [good intro](http://www.imagemagick.org/script/command-line-processing.php)\
 The [bad deep docs](http://www.imagemagick.org/Usage/crop/#crop_tile). I find these to be verbose, misspelled, obsolete, and lurid purple. At least they're detailed
 
 
