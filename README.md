@@ -13,7 +13,7 @@ The [bad deep docs](http://www.imagemagick.org/Usage/crop/#crop_tile). I find th
 
 ---
 
-The program comes with a few builtin image to work with, generated this way
+The program comes with a few builtin images to work with, generated this way
 >`magick rose: rose.gif`
 
 ![a](images/rose.gif)  
