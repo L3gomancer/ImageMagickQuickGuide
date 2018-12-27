@@ -3,7 +3,8 @@
 ImageMagick is a commandline application for editing images.\
 I find it good for cropping and scaling images in bulk, creating animated gifs and assembling sprite sheets.\
 You can even stick the commands in a script to run. My examples will output all results to the Home directory.\
-I'll also mention some tips and pitfalls I've discovered. \
+I'll also mention some tips and pitfalls I've discovered.\
+
 ### Resources
 First some resources.\
 [The ImageMagick site](http://www.imagemagick.org)\
@@ -15,12 +16,13 @@ The [bad official docs](http://www.imagemagick.org/Usage/crop/#crop_tile). These
 
 You can generate some builtin images to practice on
 >`magick rose: rose.gif`
+
 ![a](images/rose.gif)  
 
 ---
 
 convert png to gif
-> `convert dude.png dude.gif`  
+> `convert dude.png +repage dude.gif`  
 
 ---
 
