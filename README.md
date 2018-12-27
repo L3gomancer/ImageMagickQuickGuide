@@ -45,7 +45,27 @@ Produces
 
 ---
 
-Rows
+There's also a two step way of doing this. First crop the spritesheet into horizontal strips  
+> `convert bobs.gif -crop 0x32 +repage b%02d.gif`  
+![a](images/b00.png)  
+![a](images/b01.png)  
+
+Then swap the dimensions to vertically crop the strips.  
+> `convert b00.gif -crop 32x0 +repage f%02d.gif`  
+![a](images/f01.gif) ![a](images/f02.gif)  
+
+Crop 10px from the top  
+$ `convert in.gif -crop +0+10 +repage ftop.gif`  
+![a](images/ftop.gif)  
+Crop 10px from the left  
+$ `convert in.gif -crop +10+0 +repage fleft.gif`  
+![a](images/fleft.gif)  
+Crop 10px from the right  
+$ `convert in.gif -crop -10+0 +repage fright.gif`  
+![a](images/fright.gif)  
+Crop 10px from the bottom  
+$ `convert in.gif -crop +0-10 +repage fbtm.gif`  
+![a](images/fbtm.gif)  
 
 ---
 
@@ -114,8 +134,12 @@ Make a gif
 ---
 
 Tips:  
-Convert to gif before cropping to see the whitespace that pngs hide.  
-Output %03d cos it probably generates 100s of sprites.
-I probably do want to keep the rows anyway!
+Convert a sprite to gif before cropping to see the whitespace that pngs hide.  
+Name output to %03d if it will generate 100s of sprites.
+Output filenames start 00, 01, etc. If you want output to start on 01 use "null:" as the first input  
+> `convert null: b00.gif -crop 32x0 +repage f%02d.gif`
+
+This produces f01.gif, f02.gif
+
 
 
